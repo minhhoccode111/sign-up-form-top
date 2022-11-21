@@ -23,19 +23,31 @@
       </div>
       <div id="right" class="right">
         <section class="dummy-text">
-          <p></p>
-          <p></p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
         </section>
         <section class="section-form">
-          <h2 class="title">Let's do this!</h2>
-          <div class="ctn-form">
-            <form action="#" class="form" method="post">
+          <form action="#" class="form" method="post">
+            <div class="ctn-form">
+              <h2 class="title">Let's do this!</h2>
               <div class="form-div">
                 <label for="user-first-name" class="form-label">
+                  FIRST NAME
                   <input
                     id="user-first-name"
                     type="text"
-                    class="form-input"
+                    class="form-input user-first-name"
                     name="user-first-name"
                     placeholder="First Name"
                     value=""
@@ -45,63 +57,86 @@
               </div>
               <div class="form-div">
                 <label for="user-last-name" class="form-label">
+                  LAST NAME
                   <input
                     id="user-last-name"
                     type="text"
-                    class="form-input"
+                    class="form-input user-last-name"
                     name="user-last-name"
                     placeholder="Last Name"
                     required
-                    value
+                    value=""
                   />
                 </label>
               </div>
               <div class="form-div">
                 <label for="user-email" class="form-label">
+                  EMAIL
                   <input
                     id="user-email"
                     type="text"
-                    class="form-input"
-                    value=""
-                    required
-                    placeholder="example@example.com"
+                    class="form-input user-email"
                     name="user-email"
+                    placeholder="example@example.com"
+                    required
+                    value=""
                   />
                 </label>
               </div>
               <div class="form-div">
                 <label for="user-phone-number" class="form-label">
+                  PHONE NUMBER
                   <input
                     id="user-phone-number"
-                    type="text"
-                    class="form-input"
-                    value=""
-                    required
-                    placeholder="+84 123 456 789"
+                    type="number"
+                    class="form-input user-phone-number"
                     name="user-phone-number"
+                    placeholder="+84 123 456 789"
+                    required
+                    value=""
                   />
                 </label>
               </div>
               <div class="form-div">
                 <label for="user-password" class="form-label">
+                  PASSWORD
                   <input
                     id="user-password"
-                    type="text"
-                    class="form-input"
-                    value=""
-                    required
-                    placeholder="example@example.com"
+                    type="password"
+                    class="form-input user-password"
                     name="user-password"
+                    placeholder="Your password"
+                    required
+                    value=""
+                  />
+                </label>
+                <span class="warning-text">*Password do not match!</span>
+              </div>
+              <div class="form-div">
+                <label for="user-password-confirm" class="form-label">
+                  CONFIRM PASSWORD
+                  <input
+                    id="user-password-confirm"
+                    type="password"
+                    class="form-input user-password-confirm"
+                    name="user-password-confirm"
+                    placeholder="Confirm your password"
+                    required
+                    value=""
                   />
                 </label>
               </div>
-              <div class="form-div">
-                <label for="" class="form-label"
-                  ><input type="text" class="form-input"
-                /></label>
-              </div>
-            </form>
-          </div>
+            </div>
+            <button
+              type="submit"
+              id="create-button"
+              class="create-button"
+              title="Create Account"
+            >
+              Create Account
+            </button>
+            <p>Already have an account? <span>Log in</span></p>
+          </form>
         </section>
       </div>
     </div>
