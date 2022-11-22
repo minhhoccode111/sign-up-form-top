@@ -14,128 +14,130 @@
   </head>
   <body>
     <div id="wrapper" class="wrapper">
-      <div id="left" class="left">
-        <header class="left-header">
-          <div class="odin-icon"></div>
-          <span class="odin-title"></span>
+      <div id="left" class="left pd-8">
+        <header class="left-header center">
+          <div class="odin-icon">
+            <img src="/assets/image/odin-lined.png" alt="Odin icon" />
+          </div>
+          <span class="odin-title">ODIN</span>
         </header>
-        <footer class="left-footer"></footer>
+        <footer class="left-footer">
+          <p>
+            Photo by
+            <a href="https://unsplash.com/@adityachinchure">Aditya Chinchure</a>
+            on <a href="https://unsplash.com/">Unsplash</a>
+          </p>
+        </footer>
       </div>
-      <div id="right" class="right">
-        <section class="dummy-text">
+      <div id="right" class="right pd-16">
+        <section class="dummy-text pd-8 mg-8">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            aliquip ex ea commodo consequat. Duis aute irure.
           </p>
         </section>
-        <section class="section-form">
+        <section class="section-form pd-8 mg-8">
           <form action="#" class="form" method="post">
+            <h2 class="title pd-m mg-m">Let's do this!</h2>
             <div class="ctn-form">
-              <h2 class="title">Let's do this!</h2>
               <div class="form-div">
                 <label for="user-first-name" class="form-label">
-                  FIRST NAME
-                  <input
-                    id="user-first-name"
-                    type="text"
-                    class="form-input user-first-name"
-                    name="user-first-name"
-                    placeholder="First Name"
-                    value=""
-                    required
-                  />
+                  FIRST NAME:
                 </label>
+                <input
+                  id="user-first-name"
+                  type="text"
+                  class="form-input user-first-name"
+                  name="user-first-name"
+                  placeholder="First Name"
+                  value=""
+                  required
+                />
               </div>
               <div class="form-div">
                 <label for="user-last-name" class="form-label">
-                  LAST NAME
-                  <input
-                    id="user-last-name"
-                    type="text"
-                    class="form-input user-last-name"
-                    name="user-last-name"
-                    placeholder="Last Name"
-                    required
-                    value=""
-                  />
+                  LAST NAME:
                 </label>
+                <input
+                  id="user-last-name"
+                  type="text"
+                  class="form-input user-last-name"
+                  name="user-last-name"
+                  placeholder="Last Name"
+                  required
+                  value=""
+                />
               </div>
               <div class="form-div">
-                <label for="user-email" class="form-label">
-                  EMAIL
-                  <input
-                    id="user-email"
-                    type="text"
-                    class="form-input user-email"
-                    name="user-email"
-                    placeholder="example@example.com"
-                    required
-                    value=""
-                  />
-                </label>
+                <label for="user-email" class="form-label"> EMAIL: </label>
+                <input
+                  id="user-email"
+                  type="email"
+                  class="form-input user-email"
+                  name="user-email"
+                  placeholder="example@example.com"
+                  required
+                  value=""
+                />
               </div>
               <div class="form-div">
                 <label for="user-phone-number" class="form-label">
-                  PHONE NUMBER
-                  <input
-                    id="user-phone-number"
-                    type="number"
-                    class="form-input user-phone-number"
-                    name="user-phone-number"
-                    placeholder="+84 123 456 789"
-                    required
-                    value=""
-                  />
+                  PHONE NUMBER:
                 </label>
+                <input
+                  id="user-phone-number"
+                  type="number"
+                  class="form-input user-phone-number"
+                  name="user-phone-number"
+                  placeholder="+84 123 456 789"
+                  required
+                  value=""
+                />
               </div>
               <div class="form-div">
                 <label for="user-password" class="form-label">
-                  PASSWORD
-                  <input
-                    id="user-password"
-                    type="password"
-                    class="form-input user-password"
-                    name="user-password"
-                    placeholder="Your password"
-                    required
-                    value=""
-                  />
+                  PASSWORD:
                 </label>
+                <input
+                  id="user-password"
+                  type="password"
+                  class="form-input user-password"
+                  name="user-password"
+                  placeholder="Your password"
+                  required
+                  value=""
+                />
                 <span class="warning-text">*Password do not match!</span>
               </div>
               <div class="form-div">
                 <label for="user-password-confirm" class="form-label">
-                  CONFIRM PASSWORD
-                  <input
-                    id="user-password-confirm"
-                    type="password"
-                    class="form-input user-password-confirm"
-                    name="user-password-confirm"
-                    placeholder="Confirm your password"
-                    required
-                    value=""
-                  />
+                  CONFIRM PASSWORD:
                 </label>
+                <input
+                  id="user-password-confirm"
+                  type="password"
+                  class="form-input user-password-confirm"
+                  name="user-password-confirm"
+                  placeholder="Confirm your password"
+                  required
+                  value=""
+                />
               </div>
             </div>
             <button
               type="submit"
               id="create-button"
-              class="create-button"
+              class="create-button mg-m pd-8"
               title="Create Account"
             >
               Create Account
             </button>
-            <p>Already have an account? <span>Log in</span></p>
+            <p class="mg-m">
+              Already have an account?
+              <a href="#" class="log-in-link">Log in</a>
+            </p>
           </form>
         </section>
       </div>
