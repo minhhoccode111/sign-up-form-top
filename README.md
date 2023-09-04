@@ -1,9 +1,9 @@
-# sign-up-form
+# Sign Up Form The Odin Project
 
 The Odin Project sign-up form
 
 - Photo by <a href="https://unsplash.com/@adityachinchure">Aditya Chinchure</a> on <a href="https://unsplash.com/">Unsplash</a>
 
-[View all my projects Live demo links](https://minhhoccode111.github.io/allProjectssLiveDemo/)
+[View all projects' live demos](https://minhhoccode111.github.io/all-projects-live-demos/) 
 
-[View this project Live demo](https://minhhoccode111.github.io/signUpFormTOP/)
+[Sign Up Form TOP](https://minhhoccode111.github.io/sign-up-form-top/)
